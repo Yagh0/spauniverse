@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: url(./assets/background.png);
+    object-fit: contain;
+}
+
+.page {
+    padding: 4.0rem 7.2rem 4.0rem;
+}
+
+body, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+header nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #C4C4CC;
+
+    font-size: 2.16rem;
+    line-height: 22px;
+}
+
+h1 {
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-size: 4.8rem;
+    line-height: 125%;
+}
+
+.selected {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 17.2rem;
+    gap: 2.4rem;
+}
+
+.homepage a {
+    text-decoration: none;
+
+    padding: 12px 32px;
+
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 24px;
+
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.homepage p {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 24px;
+}
+
+p {
+    width: 64.8rem;
+    height: 20.3rem;
+    font-size: 1.8rem;
+    line-height: 160%;
+
+    color: #E1E1E6;
+}
+
+.exploration-page, .universe-page {
+    margin-top: 6.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
